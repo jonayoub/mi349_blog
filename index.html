@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jon's Blog</title>
 </head>
 <body>
@@ -12,94 +13,93 @@
     </header>
     <nav>
         <ul>
-            <li><a href=index.html>Blog</a></li>
-            <li><a href=about.html>About</a></li>
-            <li><a href=contact.html>Contact</a></li>
+            <li class="links"><a href=index.html>Blog</a></li>
+            <li class="links"><a href=about.html>About</a></li>
+            <li class="links"><a href=contact.html>Contact</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>Blog 1: Michigan State Football </h2>
-        <h3>By Jonathan Ayoub</h3>
-        <h4>Published October 16, 2022.</h4>
-        <p> Michigan State Football is one of the most anticipated sporting events 
-            in the state of Michigan. East Lansing is a great place to be and 
-            experience throughout the football season, whether you like to tailgate, 
-            socialize with friends and family, or even watch the game. The Spartans 
-            is part of the Big Ten Conference and has a total of six national 
-            championships. As most people know, the Spartans has acquired a new
-             coach, Mel Tucker, in 2020. He has taken the team to a bowl game 
-             already and getting a win in the end of 2021. He has recently 
-             signed a 95-million-dollar contract to be the head coach for the
-              next 10 years.  The team has had a good last two seasons but 
-             this year the team hasn’t been what the fans expected them to be. Most 
-             fans are complaining about the coaching staff, and some are complaining 
-             about certain players. The team's current record is 3 wins and 4 loses at
-             this point in their season. Their next game is against their biggest rival, University of 
-             Michigan. The Wolverines has been dominating this season 
-            so the match up during the end of October is going to be a good one.    </p>
-        <h3>Most Recent Bowl Games</h3>
-        <table>
-            <tr>
-                <th>Year</th>
-                <th>Bowl</th>
-                <th>Opponent</th>
-                <th>Result</th>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>Redbox Bowl</td>
-                <td>Oregon</td>
-                <td>L 6-7</td>
-            </tr>
-            <tr>
-                <td>2019</td>
-                <td>Pinstripe Bowl</td>
-                <td>Wake Forest</td>
-                <td>W 27-21</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Peach Bowl</td>
-                <td>Pittsburgh</td>
-                <td>W 31-21</td>
-            </tr>
-        </table>
-
-        <img src="MSU_FTBL_VS_UMICH.jpg" alt="Picture of MSU Football and Mel Tucker" width="500">
-
-
-
-        <h2>Blog 2: Apex Legends</h2>
-        <h3>By Jonathan Ayoub</h3>
-        <h4>Published October 16, 2022.</h4>
-        <p>
-            One video game that has dominating the battle royale scene has
-             been Apex Legends. Apex Legends is a free to play battle 
-             royale-hero shooter game. This game was developed b y Respawn 
-             Entertainment and published by EA. The game was released back 
-             in 2019 but has been growing every day. This game supports
-              cross-platform play which includes PC, Consoles, and various
-               other gaming devices that are up to date. Recently, Apex 
-               Legends Mobile was released in May 2022 for Android and IOS. </p>
+    <div id="blog">
+        <article class="blog-post">
+            <h2>Blog 1: Michigan State Football </h2>
+            <address class="author">Jonathan Ayoub</address>
+            <time datetime="2022-10-16">October 16,2022</time>
+            <p> Michigan State Football is one of the most anticipated sporting events 
+                in the state of Michigan. East Lansing is a great place to be and 
+                experience throughout the football season, whether you like to tailgate, 
+                socialize with friends and family, or even watch the game. The Spartans 
+                is part of the Big Ten Conference and has a total of six national 
+                championships. As most people know, the Spartans has acquired a new
+                 coach, Mel Tucker, in 2020. He has taken the team to a bowl game 
+                 already and getting a win in the end of 2021. He has recently 
+                 signed a 95-million-dollar contract to be the head coach for the
+                  next 10 years.  The team has had a good last two seasons but 
+                 this year the team hasn’t been what the fans expected them to be. Most 
+                 fans are complaining about the coaching staff, and some are complaining 
+                 about certain players. The team's current record is 3 wins and 4 loses at
+                 this point in their season. Their next game is against their biggest rival, University of 
+                 Michigan. The Wolverines has been dominating this season 
+                so the match up during the end of October is going to be a good one.    </p>
+            <h3>Most Recent Bowl Games</h3>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Bowl</th>
+                    <th>Opponent</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Redbox Bowl</td>
+                    <td>Oregon</td>
+                    <td>L 6-7</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Pinstripe Bowl</td>
+                    <td>Wake Forest</td>
+                    <td>W 27-21</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Peach Bowl</td>
+                    <td>Pittsburgh</td>
+                    <td>W 31-21</td>
+                </tr>
+            </table>
+    
+            <img src="MSU_FTBL_VS_UMICH.jpg" alt="Picture of MSU Football and Mel Tucker" >
+        </article>
+        <article class="blog-post">
+            <h2>Blog 2: Apex Legends</h2>
+            <address class="author">Jonathan Ayoub</address>
+            <time datetime="2022-10-16">October 16,2022</time>
             <p>
-            Within this game, players can assemble a team of two or three 
-            and select characters with special abilities that are known as 
-            “Legends”. The game has two game modes which are Battle Royale 
-            and Arenas. The battle royale game mode is what they are known 
-            for competitively. Usually there are 20 teams of three in this 
-            game mode and their goal is to search for weapons and supplies 
-            and defeat other enemy teams by using their skills and strategies 
-            to be the last team standing. To enable short game times, there is 
-            a ring that closes the map to a certain location to make sure the
-             game ends and doesn’t last forever. Arenas on the other hand is a 
-             three-player squad game that is like a deathmatch over a series of 
-             rounds. After a team reaches 3 wins and 2 points ahead, they end 
-             up winning the game. 
-            
-        </p>
-        <img src="apex.jpg" alt="Apex Legends Cover" width="500">
-    </section>
-    <section>
+                One video game that has dominating the battle royale scene has
+                 been Apex Legends. Apex Legends is a free to play battle 
+                 royale-hero shooter game. This game was developed b y Respawn 
+                 Entertainment and published by EA. The game was released back 
+                 in 2019 but has been growing every day. This game supports
+                  cross-platform play which includes PC, Consoles, and various
+                   other gaming devices that are up to date. Recently, Apex 
+                   Legends Mobile was released in May 2022 for Android and IOS. </p>
+                <p>
+                Within this game, players can assemble a team of two or three 
+                and select characters with special abilities that are known as 
+                “Legends”. The game has two game modes which are Battle Royale 
+                and Arenas. The battle royale game mode is what they are known 
+                for competitively. Usually there are 20 teams of three in this 
+                game mode and their goal is to search for weapons and supplies 
+                and defeat other enemy teams by using their skills and strategies 
+                to be the last team standing. To enable short game times, there is 
+                a ring that closes the map to a certain location to make sure the
+                 game ends and doesn’t last forever. Arenas on the other hand is a 
+                 three-player squad game that is like a deathmatch over a series of 
+                 rounds. After a team reaches 3 wins and 2 points ahead, they end 
+                 up winning the game. 
+                
+            </p>
+            <img src="apex.jpg" alt="Apex Legends Cover">
+        </article>
         <form  method="get" class="form-example">
             <h3>Newsletter Signup</h3>
             <div class="form-example">
@@ -110,7 +110,9 @@
               <input type="submit" value="Subscribe!">
             </div>
           </form>
-    </section>
+
+    </div>
+
     
 </body>
 
