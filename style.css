@@ -32,6 +32,7 @@ p{
 
 img {
     width: 30%;
+    float: right;
 }
 
 .links{
@@ -52,5 +53,32 @@ h3{
 }
 
 table{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.nav {
+    position: sticky;
+    padding: 5px;
+    background: rgb(82, 122, 255);
+}
+
+/* 
+article:nth-of-type(1){
+    flex: 1;
+}
+article:nth-of-type(2){
+    flex: 3;
+} */
+
+
+#column{
+    display: flex;
 }

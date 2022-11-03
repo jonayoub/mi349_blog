@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Jon's Blog</title>
-</head>
-<body>
-    <header>Jon's Blog</header>
-    <nav>
-        <ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Jon's Blog</title>
+   </head>
+   <body>
+      <header>
+         <h1>Jon's Blog</h1>
+      </header>
+      <nav class="nav">
+         <ul>
             <li class="links"><a href=index.html>Blog</a></li>
             <li class="links"><a href=about.html>About</a></li>
             <li class="links"><a href=contact.html>Contact</a></li>
-        </ul>
-    </nav>
-    <section id="blog">
-        <h1>About the author.</h1>
-        <p>
-            Hey! I am a student at Michigan State University and I am currently majoring in computer science. 
-            I expect to graduate in May 2023 with a Bachelor's degree. My goal after graduating is to get a full time job as a software developer. 
-        </p>
-        <p>
-            I am currently interning at SolvIT as a software developer. I have
-            been with the company since July and plan to end around the end of the year. 
-        </p>
-        <p>
-            As I start heading towards my last semesters of college, I have gained a lot of experience
-            in different languages and softwares. Some languages that I have gained some experience in 
-            are Python, C++, C#, Java, Swift, SQL, and Javascript. 
-        </p>
-        <img src="me.jpg" alt="Picture of Me."  >
-
-        <h2>Fun facts</h2>
-        <ul class="list">
-            <li>I love to play sports like soccer, basketball, volleyball and football.</li>
-            <li>I also like to play video games.</li>
-        </ul>
-    </section>
-</body>
+         </ul>
+      </nav>
+      <div id="blog" class="column">
+         <article class="blog_post">
+            <h2>About the author.</h2>
+            <p><img src="me.jpg" alt="Picture of Me."  >
+               Hey! I am a student at Michigan State University and I am currently majoring in computer science. 
+               I expect to graduate in May 2023 with a Bachelor's degree. My goal after graduating is to get a full time job as a software developer. 
+            </p>
+            <p>
+               I am currently interning at SolvIT as a software developer. I have
+               been with the company since July and plan to end around the end of the year. 
+            </p>
+            <p>
+               As I start heading towards my last semesters of college, I have gained a lot of experience
+               in different languages and softwares. Some languages that I have gained some experience in 
+               are Python, C++, C#, Java, Swift, SQL, and Javascript. 
+            </p>
+            <h2>Fun facts</h2>
+            <ul class="list">
+               <li>I love to play sports like soccer, basketball, volleyball and football.</li>
+               <li>I also like to play video games.</li>
+            </ul>
+         </article>
+      </div>
+   </body>
 </html>
