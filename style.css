@@ -70,15 +70,19 @@ article {
     background: rgb(82, 122, 255);
 }
 
-/* 
-article:nth-of-type(1){
-    flex: 1;
-}
-article:nth-of-type(2){
-    flex: 3;
-} */
-
-
 #column{
     display: flex;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background:rgb(87, 165, 255);
+    }
+
+    #column{
+        display: block;
+    }
+    table{
+        font-size: 2.5vw;
+    }
 }
